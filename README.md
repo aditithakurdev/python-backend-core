@@ -1,10 +1,15 @@
 # python-backend-core
 
-
+# Project Structure
 python-backend-core/
 │
-├── venv/            
+├── app/
+│   ├── main.py
+│   ├── database.py
+│   ├── models/
+│   ├── routers/
 │
-├── main.py           
+├── .env
 ├── requirements.txt
-└── .gitignore
+└── venv/
+
